@@ -7,7 +7,7 @@
  */
 h1  {
 	/* "J'ai raté mes trois: */
-	font-family: "Brandon-Grotesque-Medium-Italic";
+	font-family: "brandon-grotesque-medium-italic";
 	font-size: 33px;
 	color: #8737FA;
 }
@@ -23,7 +23,8 @@ h2 {
  * Heading 3
  */
 h3  {
-	line-height: 1.2;
+	font-family: "brandon-grotesque-bold";
+	font-size: 22.5px;
 }
 
 /**
@@ -44,6 +45,9 @@ h5 {
  * Heading 6
  */
 h6 {
+	font-family: "brandon-grotesque-bold";
+	font-size: 15px;
+
 
 }
 
@@ -53,4 +57,24 @@ h6 {
 .subheading {
 	//font-family: $font-secondary;
 	font-weight: normal;
+}
+
+
+
+.bigtitle{
+	/* ACTUS Fat: */
+	font-family: "brandon-grotesque-bold";
+	font-size: 85px;
+	color: #FFFFFF;
+	letter-spacing: 3.75px;
+	text-align: right;
+	padding-right: 30px;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#bc68fd+0,8737fa+100 */
+background: #bc68fd; /* Old browsers */
+background: -moz-linear-gradient(left, #bc68fd 0%, #8737fa 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, #bc68fd 0%,#8737fa 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, #bc68fd 0%,#8737fa 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bc68fd', endColorstr='#8737fa',GradientType=1 ); /* IE6-9 */
+
+
 }

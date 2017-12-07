@@ -6,7 +6,6 @@
  * Button
  */
 .c-btn {
-	display: inline-block;
 	background: black;
 	color: $color-white;
 	line-height: 1;
@@ -91,3 +90,19 @@
  .c-btn--overlay {
 	 background: $color-gray-35;
  }
+
+
+.c-btn-rubric {
+	display: block;
+font-family: "Brandon-Grotesque-Bold";
+font-size : 15px;
+height : 21,75px;
+border-radius : 0px;
+background : black;
+color : white;
+border-color: black;
+margin-bottom: 6px;
+
+
+
+}

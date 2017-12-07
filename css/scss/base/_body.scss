@@ -11,6 +11,16 @@
 	src: url("../../fonts/Brandon-Grotesque-Medium-Italic.otf") format("opentype");
 
 }
+@font-face {
+	font-family: "brandon-grotesque-regular-italic";
+	src: url("../../fonts/Brandon-Grotesque-Regular-Italic.otf") format("opentype");
+
+}
+@font-face {
+	font-family: "brandon-grotesque-regular";
+	src: url("../../fonts/Brandon-Grotesque-Regular.otf") format("opentype");
+
+}
 /**
  * Body base styles
  */
@@ -20,6 +30,6 @@ body {
 	font-family: $font;
 	-webkit-text-size-adjust: 100%;
 	min-height: 100vh;
-	display: flex;
+	display : flex;
 	flex-direction: column;
 }

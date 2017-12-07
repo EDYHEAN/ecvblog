@@ -1,0 +1,29 @@
+.list-article {
+display : flex;
+flex-direction: row;
+justify-content: space-around;
+
+
+
+}
+
+.list-article2 {
+display : flex;
+flex-direction: row;
+justify-content: space-around;
+margin-top: 90px;
+
+
+}
+
+
+.hover-article-on {
+position :absolute;
+display:none;
+
+
+}
+
+.hover-article-on:hover{
+  display:block;
+}

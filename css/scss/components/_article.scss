@@ -1,0 +1,48 @@
+.resume {
+	/* Ses amis et sa famil: */
+font-family: "brandon-grotesque-regular";
+font-size: 17.25px;
+color: #959595;
+letter-spacing: 0;
+line-height: 26.25px;
+width: 275px;
+}
+
+.title {
+
+	/* Jean-Pierre Coffe ar: */
+font-family: "brandon-grotesque-bold";
+font-size: 22.5px;
+color: #000000;
+letter-spacing: 0;
+line-height: 27px;
+width: 275px;
+}
+
+
+.autor{
+
+	/* Jean Roucas / 31.09.: */
+font-family: "brandon-grotesque-regular-italic";
+font-size: 15px;
+color: #B5B5B5;
+letter-spacing: 0;
+}
+
+
+
+
+
+.picthover {
+display: flex;
+justify-content: center;
+align-items: center;
+background-image: linear-gradient(0deg, #BC68FD 0%, #8737FA 100%);
+height : 200px;
+width : 273px;
+opacity : .9;
+}
+
+.picthover .heartmargin {
+	margin-right: 30px;
+}
