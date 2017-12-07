@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": 1512065780468,
+  "timestamp": 1512648619809,
   "graph": {
     "options": {
       "directed": true,
@@ -21,7 +21,7 @@
         }
       },
       {
-        "v": "00-atoms/buttons/button.mustache",
+        "v": "00-atoms/buttons/button_rubric.mustache",
         "value": {
           "compileState": "clean",
           "lineagePath": "../../patterns/01-molecules-blocks-article_block/01-molecules-blocks-article_block.rendered.html",
@@ -73,13 +73,39 @@
       {
         "v": "00-atoms/images/article.mustache",
         "value": {
-          "compileState": "clean"
+          "compileState": "clean",
+          "lineagePath": "../../patterns/01-molecules-blocks-article_block/01-molecules-blocks-article_block.rendered.html",
+          "lineagePattern": "molecules-article_block"
+        }
+      },
+      {
+        "v": "00-atoms/images/clockwhite.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/00-atoms-images-hover-article/00-atoms-images-hover-article.rendered.html",
+          "lineagePattern": "atoms-hover-article"
+        }
+      },
+      {
+        "v": "00-atoms/images/heartwhite.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/00-atoms-images-hover-article/00-atoms-images-hover-article.rendered.html",
+          "lineagePattern": "atoms-hover-article"
         }
       },
       {
         "v": "00-atoms/images/hero.mustache",
         "value": {
           "compileState": "clean"
+        }
+      },
+      {
+        "v": "00-atoms/images/hover-article.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/01-molecules-blocks-article_block/01-molecules-blocks-article_block.rendered.html",
+          "lineagePattern": "molecules-article_block"
         }
       },
       {
@@ -101,7 +127,19 @@
         }
       },
       {
+        "v": "00-atoms/images/picto_lun.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
         "v": "00-atoms/images/square.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "00-atoms/text/fat-header.mustache",
         "value": {
           "compileState": "clean"
         }
@@ -127,9 +165,7 @@
       {
         "v": "00-atoms/text/paragraph.mustache",
         "value": {
-          "compileState": "clean",
-          "lineagePath": "../../patterns/01-molecules-blocks-article_block/01-molecules-blocks-article_block.rendered.html",
-          "lineagePattern": "molecules-article_block"
+          "compileState": "clean"
         }
       },
       {
@@ -175,13 +211,28 @@
     ],
     "edges": [
       {
-        "v": "01-molecules/blocks/article_block.mustache",
-        "w": "00-atoms/buttons/button.mustache",
+        "v": "00-atoms/images/hover-article.mustache",
+        "w": "00-atoms/images/heartwhite.mustache",
+        "value": {}
+      },
+      {
+        "v": "00-atoms/images/hover-article.mustache",
+        "w": "00-atoms/images/clockwhite.mustache",
         "value": {}
       },
       {
         "v": "01-molecules/blocks/article_block.mustache",
-        "w": "00-atoms/text/paragraph.mustache",
+        "w": "00-atoms/buttons/button_rubric.mustache",
+        "value": {}
+      },
+      {
+        "v": "01-molecules/blocks/article_block.mustache",
+        "w": "00-atoms/images/hover-article.mustache",
+        "value": {}
+      },
+      {
+        "v": "01-molecules/blocks/article_block.mustache",
+        "w": "00-atoms/images/article.mustache",
         "value": {}
       },
       {
