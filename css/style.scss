@@ -100,7 +100,7 @@ So feel free to use any of these approaches. Or don't. It's totally up to you.
 // @import "scss/base/media";
 // @import "scss/base/reset";
 // @import "scss/base/tables";
-// @import "scss/base/text";
+@import "scss/base/text";
 
 
 
@@ -114,7 +114,7 @@ So feel free to use any of these approaches. Or don't. It's totally up to you.
 // @import "scss/components/carousels";
 // @import "scss/components/footer";
 // @import "scss/components/footer-nav";
-// @import "scss/components/forms";
+@import "scss/components/forms";
 // @import "scss/components/fields";
 // @import "scss/components/header";
 // @import "scss/components/logo";
@@ -129,11 +129,14 @@ So feel free to use any of these approaches. Or don't. It's totally up to you.
 // @import "scss/components/box";
 // @import "scss/components/feedback";
 @import "scss/components/article";
+@import "scss/components/navigation";
+
+/*------------------------------------*\
+    $ORGANISMES
+\*------------------------------------*/
+
 @import "scss/organismes/article-list";
-
-
-
-
+@import "scss/organismes/navigation";
 
 /*------------------------------------*\
     $LAYOUT
